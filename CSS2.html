@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK_2</title>
+</head>
+<style>
+    p {
+        font-size: 1.7em ;
+        font-weight: 600;
+       
+    }
+    .container-2 {
+        display: grid;
+        grid-template-columns:auto auto auto auto auto;
+        border: 1px solid black;
+    }
+  .container-1 {
+        width:220px;
+        border: 1px solid black;
+    }
+    .item   {
+        width: 150px;
+        height: 40px;
+        background-color: lightgray;
+        text-align: center;
+        padding-top: 20px;
+    }
+    .item:hover {
+        background-color:gray;
+        cursor: pointer;
+    }
+    .container-1 .item {
+        background-color: lightblue;
+        text-align: left;
+        padding-left: 30%;
+      
+    }
+    .container-1 .item:hover {
+        cursor: pointer;
+        background-color: #fea500;
+    }
+    a {
+        font-weight: 550;
+        font-size: 1.7em;
+        text-decoration: none;
+  
+    }
+  .container-2 .item:not(:last-child) {
+        border-right: 1px solid blue;
+</style>
+<body>
+    
+    <div style="margin-top: 8%;display: grid;grid-template-columns: auto auto; justify-content: space-around;">
+        <div class="cont-check">
+            <div><p>Vertical navigation Bar</p></div>
+            <div class="container-1" style="margin-top: 50px;">
+                <div class="item"><a href="">Home</a></div>
+                <div class="item"><a href="">Java</a></div>
+                <div class="item"><a href="">CSS</a></div>
+                <div class="item"><a href="">HTML</a></div>
+                <div class="item"><a href="">Bootstrap</a></div>
+            </div>
+        </div>
+        <div class="cont-check">
+            <div style="height: 120px;">
+              </div>
+            <p>Horizontal navigation Bar</p>
+            <div class="container-2">
+                <div class="item"><a href="">Home</a></div>
+                <div class="item"><a href="">Java</a></div>
+                <div class="item"><a href="">HTML</a></div>
+                <div class="item"><a href="">CSS</a></div>
+              <div class="item"><a href=""></a></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

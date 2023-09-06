@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK_5</title>
+    <style>
+        .container {
+            margin-left: 10%;
+            margin-top: 3%;
+            display: grid;
+            grid-template-columns: 280px 1fr;
+        }
+        * {
+            background-color: #d9da3e;
+        }
+        a {
+            font-weight: 550;
+            font-size: 1.4em;
+            text-decoration: none;
+            background-color: white;
+        }
+        .item   {
+            width: 200px;
+            height: 40px;
+            background-color: white;
+            text-align: center;
+            padding-top: 10px;
+        }
+        .balck-box {
+            width: 20px;
+            background-color: black;
+        }
+        .item-container:hover {
+            transform: scale(105%,105%);
+            transition: .5s;
+            
+        }
+        .item-container {
+            width: 220px;
+            display: grid;
+            grid-template-columns: 200px 20px;
+            transition: .5s;
+            margin-bottom: 5%;
+      
+        }
+
+        .body {
+            width: 600px;
+            padding: 20px;
+            color: purple;
+        }
+     
+         a {
+           color: blue ;
+        }
+         address{
+            border-top: thin dotted ; 
+            margin-top:-2%;
+            padding-top:2%;
+      }
+      
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav" style="margin-top: 25%;">
+            <div class="item-container"><div class="item"><a href="">Home page</a></div><div class="balck-box"></div></div>
+            <div class="item-container"><div class="item"><a href="">Musings</a></div><div class="balck-box"></div></div>
+            <div class="item-container"><div class="item"><a href="">My town</a></div><div class="balck-box"></div></div>
+            <div class="item-container"><div class="item"><a href="">Links</a></div><div class="balck-box"></div></div>
+        </div>
+        <div class="body">
+            <p style="font-size: 4.0em; margin-top: 0%; margin-bottom: 6%; font-weight: bolder;">My first styled page</p>
+            <p style="font-size: 1.5em;">Welcome to my styled page! <br><br>
+               It lacks images, but at least it has style. And it
+               has links, even if they don't go anywhere... <br><br>
+               There should be more here, but I don't know
+               what yet. <br> <hr>
+               <address style="font-size: 1.5em;">Made 05 September 2023 <br>
+                by myself.</i>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
